@@ -33,6 +33,12 @@
         </div>
 
         <div class="flex items-center justify-end mt-4">
+            
+            <div class="flex row items-center justify-around">
+                <img src="/img/Google.png" style="height: 40px; width: 40px;" alt="" class="me-2">
+                <a href="/login-google" class="inline-block px-2 py-2 text-black bg-600 rounded-lg shadow">Iniciar session con Google </a>
+            </div>
+
             @if (Route::has('password.request'))
                 <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('password.request') }}">
                     {{ __('Forgot your password?') }}
