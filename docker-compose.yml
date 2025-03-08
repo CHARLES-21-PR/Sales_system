@@ -26,6 +26,7 @@ services:
       - "5432:5432"
     volumes:
       - db_server1_data:/var/lib/postgresql/data
+      - ./backup.sql:/docker-entrypoint-initdb.d/backup.sql
     networks:
       - laravel_db_network
 
