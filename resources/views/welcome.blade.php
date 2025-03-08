@@ -55,7 +55,7 @@
 
 			<!-- Header -->
 				<header id="header">
-					<h1 id="logo"><a href="index.html">SALES</a></h1>
+					<h1 id="logo">SALES</h1>
 									
                     @if (Route::has('login'))
                                 <nav class="">
